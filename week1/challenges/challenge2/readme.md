@@ -1,5 +1,7 @@
-Week 1 - Challenge 2
-Nuestra web
+# Week 1 - Challenge 2
+
+## Nuestra web
+
 Este es un challenge para hacer por parejas.
 El objetivo es crear con HTML (y nada de CSS) una web con cuatro páginas: Home, Quiénes somos, Nuestros CV y Contacto
 
