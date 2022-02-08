@@ -1,0 +1,136 @@
+:root {
+  --background-main-color: #c2e7da;
+  --background-secondary-color: #600;
+  --background-small-items: #060;
+  --main-color: #6290c3;
+  --text-color: #000046;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: var(--text-color);
+  font-family: "Open Sans", sans-serif;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button {
+  font-family: inherit;
+}
+h1,
+h2 {
+  margin: 0;
+}
+.container {
+  background-color: var(--background-main-color);
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.main {
+  padding-top: 20px;
+}
+.main-header {
+  text-align: center;
+}
+.main-title {
+  font-weight: 500;
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  background: none;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.icon {
+  background-color: var(--background-small-items);
+  border-radius: 50%;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gentleman {
+  background-color: var(--main-color);
+  width: 70%;
+  margin: 0 auto 30px;
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  position: relative;
+  display: flex;
+}
+.gentleman__avatar-container {
+  border-right: 2px dashed #fff;
+  width: 30%;
+  position: relative;
+}
+.gentleman__avatar {
+  max-width: 80%;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transition: transform 0.3s;
+}
+.gentleman__initial {
+  border-radius: 50%;
+  background-color: var(--background-secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+.gentleman__data-container {
+  padding-left: 20px;
+}
+.gentleman__name {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.gentleman__data {
+  margin-bottom: 5px;
+}
+.gentleman__data-label {
+  width: 100px;
+  display: inline-block;
+}
+.gentleman__icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.gentleman__icon--delete {
+  top: 20px;
+  background-color: #600;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.gentleman.selected .gentleman__icon,
+.gentleman:hover .gentleman__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gentleman.selected .gentleman__avatar,
+.gentleman:hover .gentleman__avatar {
+  transform: scaleX(-100%);
+}
