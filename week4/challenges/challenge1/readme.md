@@ -1,7 +1,7 @@
 # Week 4 - Challenge 1
 
-# Review testing i challecnge "Pokemos"
+# Review testing challenge "Pokemos"
 
-# Migrate Tour of Heroes to React
+# Start migrate Tour of Heroes to React
 
-Opcionalmente, hasta donde sea posible con los conceptos esplicados
+Opcionalmente, hasta donde sea posible con los conceptos explicados
