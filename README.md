@@ -41,3 +41,7 @@
 [Challenge 1: Review PokeAPI / Tour of Heroes -> React](https://github.com/isdi-coders-2022/bootcamp-202201-mad/tree/master/week4/challenges/challenge1/)
 
 [Challenge 2: Señores React](https://github.com/isdi-coders-2022/bootcamp-202201-mad/tree/master/week4/challenges/challenge2/)
+
+[Challenge 3: Teléfono React](https://github.com/isdi-coders-2022/bootcamp-202201-mad/tree/master/week4/challenges/challenge3/)
+
+[Challenge 4: Formulario React](https://github.com/isdi-coders-2022/bootcamp-202201-mad/tree/master/week4/challenges/challenge4/)
